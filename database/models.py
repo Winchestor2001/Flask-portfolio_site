@@ -12,7 +12,7 @@ class About(BaseModel):
     id = AutoField(primary_key=True)
     fullname = CharField(max_length=200)
     profession = CharField(max_length=100)
-    dv_file = TextField()
+    cv_file = TextField()
     description = TextField()
 
     class Meta:
